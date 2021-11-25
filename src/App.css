@@ -1,3 +1,7 @@
+body {
+  background-color: #121212;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +10,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.form-control:focus {
+  border-color: #2faa4c;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
