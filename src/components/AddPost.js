@@ -36,7 +36,7 @@ function CreatePost(props) {
 
                 console.log('xxxxxxxxxxxxxx', response.headers.get('Set-Cookie'))
                 // this.setState({ postId: data.id })
-                // window.location.reload(false);
+                window.location.reload(false);
             })
             .catch(error => {
                 // this.setState({ errorMessage: error.toString() });
