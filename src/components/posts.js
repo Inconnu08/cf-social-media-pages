@@ -11,7 +11,7 @@ const Posts = () => {
             // https://social-media-api.taufiqrx8.workers.dev/api/posts
             // http://127.0.0.1:8787/api/posts
             const resp = await fetch(
-                "http://127.0.0.1:8787/api/posts"
+                "https://social-media-api.taufiqrx8.workers.dev/api/posts"
             );
             const postsResp = await resp.json();
             setPosts(postsResp.reverse());

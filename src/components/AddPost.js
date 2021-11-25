@@ -22,7 +22,7 @@ function CreatePost(props) {
         };
         // https://social-media-api.taufiqrx8.workers.dev/api/posts
         // http://127.0.0.1:8787/api/posts
-        fetch('http://127.0.0.1:8787/api/posts', requestOptions)
+        fetch('https://social-media-api.taufiqrx8.workers.dev/api/posts', requestOptions)
             .then(async response => {
                 const isJson = response.headers.get('content-type')?.includes('application/json');
                 // const data = isJson && await response.json();
